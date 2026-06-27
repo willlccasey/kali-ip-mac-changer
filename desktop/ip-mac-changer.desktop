@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=IP & MAC Changer
+Comment=Change IP address and MAC address on Kali Linux (spoofing tool)
+Exec=/home/will/bin/ip-mac-changer.sh
+Icon=/usr/share/icons/hicolor/48x48/apps/kali-macchanger.png
+Terminal=true
+Type=Application
+Categories=System;Network;Security;
+Keywords=kali;network;mac;ip;spoof;changer;privacy;
+StartupNotify=true
+X-GNOME-Autostart-enabled=false
+NoDisplay=false
+# To show on Desktop, copy this file to ~/Desktop and run: chmod +x ~/Desktop/ip-mac-changer.desktop
