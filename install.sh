@@ -12,8 +12,9 @@ if [[ -d "$PKG/.local/bin" ]]; then
   rsync -a "$PKG/.local/bin/" "$HOME/.local/bin/"
 fi
 if [[ -d "$PKG/icons" ]]; then
-  install -d "$HOME/Pictures"
+  install -d "$HOME/Pictures" "$HOME/.local/share/icons"
   rsync -a "$PKG/icons/" "$HOME/Pictures/"
+  rsync -a "$PKG/icons/" "$HOME/.local/share/icons/"
 fi
 
 # Copy top-level scripts/dirs (network-reset.sh, intercept/, etc.)

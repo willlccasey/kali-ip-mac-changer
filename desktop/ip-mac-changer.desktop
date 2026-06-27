@@ -2,7 +2,7 @@
 Name=IP & MAC Changer
 Comment=Change IP address and MAC address on Kali Linux (spoofing tool)
 Exec=/home/will/bin/ip-mac-changer.sh
-Icon=/usr/share/icons/hicolor/48x48/apps/kali-macchanger.png
+Icon=network-wireless-symbolic
 Terminal=true
 Type=Application
 Categories=System;Network;Security;
